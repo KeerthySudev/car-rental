@@ -1,0 +1,147 @@
+.fourthRow {
+  width: 1234px;
+  height: 506px;
+  margin-top: 40px;
+  margin-left: 142px;
+  display: flex;
+  flex-direction: row;
+}
+.subscribe {
+    width: 590px;
+    height: 506px;
+    position: relative;
+  }
+  
+  .subscribe h2 {
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: left;
+    color: #000000;
+    width: 550px;
+    height: 100px;
+    top: 1262px;
+    left: 142px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+  .input {
+    width: 464px;
+    height: 45px;
+    display: flex;
+    gap: 18px;
+  }
+  
+  .name input,
+  .email input {
+    width: 223px;
+    height: 45px;
+    border-radius: 5px;
+    background: #f8f8f8;
+    border: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-indent: 20px;
+  }
+  
+  .miss {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    width: 478px;
+    height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  
+  .subscribe button {
+    width: 464px;
+    height: 57.08px;
+    border-radius: 5px;
+    background: #e21e26;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  @media (max-width: 480px) {
+    .fourthRow {
+      position: relative;
+      top: 140px;
+      left: -126px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .subscribe h2 {
+      font-size: 23px;
+    }
+  
+    .subscribe .input {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .subscribe .input input {
+      width: 435px;
+    }
+  
+    .subscribe .miss {
+      position: relative;
+      top: 66px;
+      left: 0px;
+    }
+  
+    .subscribe button {
+      position: relative;
+      top: 37px;
+      left: 0px;
+      width: 161px;
+    }
+}
+@media (max-width: 720px) and (min-width: 480px){
+  .fourthRow {
+    position: relative;
+    top: 140px;
+    left: -126px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe h2 {
+    font-size: 23px;
+  }
+
+  .subscribe .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe .input input {
+    width: 435px;
+  }
+
+  .subscribe .miss {
+    position: relative;
+    top: 66px;
+    left: 0px;
+  }
+
+  .subscribe button {
+    position: relative;
+    top: 37px;
+    left: 0px;
+    width: 161px;
+  }
+}

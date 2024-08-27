@@ -1,0 +1,27 @@
+
+
+.socialIcons {
+  width: 101px;
+  height: 15.5px;
+  margin-top: 15px;
+  margin-left: 1275px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+
+@media (max-width: 480px) {
+  .socialIcons {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) and (min-width: 480px){
+  .socialIcons {
+    display: none;
+  }
+}
+
+
+
+  

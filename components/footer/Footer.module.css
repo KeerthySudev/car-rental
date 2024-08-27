@@ -1,0 +1,389 @@
+.footer {
+    width: 1440px;
+    height: 303px;
+    background-color: black;
+    position: relative;
+    top: 312px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .details {
+    height: 234px;
+  }
+  
+  .footer .logo {
+    display: flex;
+    flex-direction: column;
+    width: 354.22px;
+    height: 52.6px;
+    top: 17px;
+    left: 74px;
+    position: relative;
+  }
+  
+  .footer .logo img {
+    width: 56.75px;
+    height: 66px;
+    top: 40px;
+    left: 80px;
+  }
+  
+  .footer .logo p {
+    width: 105px;
+    height: 36px;
+    top: 115px;
+    left: 80px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: white;
+  }
+  
+  .footer .lists {
+    width: 552.5px;
+    height: 92px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 19px;
+    top: -12px;
+    left: 415px;
+  }
+  
+  .footer .lists ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .footer .lists a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: white;
+    display: block;
+  }
+  
+  .footer .lists li {
+    list-style: none;
+  }
+  
+  .footer .last {
+    position: relative;
+    top: -37px;
+  }
+  
+  .follow {
+    height: 103px;
+    width: 138px;
+    position: relative;
+    top: -182px;
+    left: 1199px;
+  }
+  
+  .follow h3 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    width: 103px;
+    height: 21px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .follow .socialicons {
+    width: 100%;
+    height: 16.59px;
+    position: relative;
+    left: 0;
+    margin-bottom: 31.41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .follow .socialicons img {
+    width: 16.59px;
+    height: 16.59px;
+  }
+  
+  .follow img {
+    width: 64px;
+    height: 24px;
+  }
+  
+  .alhabtoor {
+    width: 149px;
+    height: 20px;
+    top: -12px;
+    left: 415px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: white;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .footer .features {
+    width: 534px;
+    height: 24px;
+    top: -12px;
+    left: 414.5px;
+    gap: 21px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .features .link {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26.74px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .line {
+    height: 0px;
+    border-bottom: 0.5px solid #ffffff;
+    opacity: 50%;
+    position: relative;
+  }
+  
+  .copyright {
+    height: 69px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .copyright p {
+    width: 257px;
+    height: 18px;
+    position: relative;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+  }
+  
+
+  @media (max-width: 480px) {
+    .footer {
+      position: relative;
+      top: 730px;
+      left: -7px;
+      width: 100%;
+      height: 456px;
+    }
+  
+    .footer .logo {
+      position: relative;
+      top: 16px;
+      left: 28px;
+      display: flex;
+      flex-direction: row;
+      color: black;
+      
+    }
+    .footer .logo img{
+      content: url(/images/Group.svg);
+    }
+  
+    .footer .logo p {
+      position: relative;
+      top: 23px;
+      left: 13px;
+      display: flex;
+      flex-direction: row;
+      color: black;
+    }
+  
+    .footer .details {
+      color: black;
+      background: #F6F7F9;
+
+    }
+  
+    .follow .socialicons {
+      position: relative;
+      top: -59px;
+      left: -885px;
+    }
+    
+  
+    .follow .img img {
+      position: relative;
+      top: 216px;
+      left: -997px;
+    }
+    .fb img{
+      content: url(/images/Vector.svg);
+    }
+    .utube img{
+      content: url(/images/utubeB.svg);
+    }
+    .x img{
+      content: url(/images/layer1.svg);
+    }
+    .insta img{
+      content: url(/images/instaPic.svg);
+    }
+    .linkedin img{
+      content: url(/images/linkedinPic.svg);
+    }
+    .img img{
+      content: url(/images/globalLogo.svg);
+    }
+    
+  
+    .alhabtoor {
+      position: relative;
+      top: 104px;
+      left: 154px;
+    }
+  
+    .footer .features {
+      position: relative;
+      top: 104px;
+      left: -69px;
+    }
+  
+    .line,
+    .copyright {
+      position: relative;
+      top: 164px;
+    }
+  
+    .footer .lists {
+      position: relative;
+      top: 74px;
+      left: -87px;
+      color: black;
+    }
+  
+    .footer .lists a {
+      color: black;
+    }
+}
+@media (max-width: 720px) and (min-width: 480px){
+  .footer {
+    position: relative;
+    top: 730px;
+    left: -7px;
+    width: 100%;
+    height: 456px;
+  }
+
+  .footer .logo {
+    position: relative;
+    top: 16px;
+    left: 28px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    
+  }
+  .footer .logo img{
+    content: url(/images/Group.svg);
+  }
+
+  .footer .logo p {
+    position: relative;
+    top: 23px;
+    left: 13px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+  }
+
+  .footer .details {
+    color: black;
+    background: #F6F7F9;
+
+  }
+
+  .follow .socialicons {
+    position: relative;
+    top: -59px;
+    left: -674px;
+  }
+  
+
+  .follow .img img {
+    position: relative;
+    top: 216px;
+    left: -883px;
+  }
+  .fb img{
+    content: url(/images/Vector.svg);
+  }
+  .utube img{
+    content: url(/images/utubeB.svg);
+  }
+  .x img{
+    content: url(/images/layer1.svg);
+  }
+  .insta img{
+    content: url(/images/instaPic.svg);
+  }
+  .linkedin img{
+    content: url(/images/linkedinPic.svg);
+  }
+  .img img{
+    content: url(/images/globalLogo.svg);
+  }
+  
+
+  .alhabtoor {
+    position: relative;
+    top: 104px;
+    left: 280px;
+  }
+
+  .footer .features {
+    position: relative;
+    top: 104px;
+    left: 90px;
+  }
+
+  .line,
+  .copyright {
+    position: relative;
+    top: 164px;
+  }
+
+  .footer .lists {
+    position: relative;
+    top: 74px;
+    left: 30px;
+    color: black;
+  }
+
+  .footer .lists a {
+    color: black;
+  }
+}

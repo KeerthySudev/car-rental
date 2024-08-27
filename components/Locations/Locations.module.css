@@ -1,0 +1,203 @@
+.locations {
+    width: 1312px;
+    height: 325px;
+    top: 173px;
+    left: 64px;
+    background-color: black;
+    position: relative;
+    margin-bottom: 56px;
+  }
+  
+  .locations h3 {
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+    width: 163px;
+    height: 51px;
+    top: 56px;
+    left: 569px;
+    position: relative;
+    color: white;
+    margin-bottom: 72px;
+  }
+  
+  .countries {
+    width: 1053px;
+    height: 41px;
+    margin-left: 111px;
+    top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .countries ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .countries .link {
+    width: auto;
+    height: 26px;
+    opacity: 80%;
+    font-family: Open sans;
+    font-size: 18.81px;
+    font-weight: 600;
+    line-height: 25.62px;
+    color: white;
+  }
+  
+  .countries .link::before {
+    content: url(/images/locations.svg);
+    display: inline-block;
+    width: 22.24px;
+    height: 28.59px;
+    margin-right: 13px;
+    vertical-align: middle;
+  }
+  
+  .vertical {
+    transform: rotate(180deg);
+    height: 26px;
+    opacity: 20%;
+    margin: 0 10px;
+  }
+
+  @media (max-width: 480px) {
+    .locations {
+      position: relative;
+      top: 715px;
+      left: 12px;
+      width: 442px;
+      height: 151px;
+    }
+  
+    .locations h3 {
+      position: relative;
+      top: -6px;
+      margin: 0;
+      left: -35px;
+      font-size: 18px;
+    }
+  
+    .locations .vertical {
+      display: none;
+    }
+  
+    .countries {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      top: -10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+  
+    .countries ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  
+    .countries .link {
+      width: 45%;
+      height: 26px;
+      opacity: 80%;
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 25px;
+      color: white;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .countries .link::before {
+      content: url(/images/locations.svg);
+      display: inline-block;
+      width: 22px;
+      height: 28px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+}
+@media (max-width: 720px) and (min-width: 480px){
+  .locations {
+    position: relative;
+    top: 715px;
+    left: 12px;
+    width: 690px;
+    height: 151px;
+  }
+
+  .locations h3 {
+    position: relative;
+    top: -6px;
+    margin: 0;
+    left: -35px;
+    font-size: 18px;
+  }
+
+  .locations .vertical {
+    display: none;
+  }
+
+  .countries {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .countries ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .countries .link {
+    width: 45%;
+    height: 26px;
+    opacity: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .countries .link::before {
+    content: url(/images/locations.svg);
+    display: inline-block;
+    width: 22px;
+    height: 28px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}

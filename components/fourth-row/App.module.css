@@ -1,0 +1,162 @@
+.app {
+    width: 644px;
+    height: 506px;
+    background: #e21e26;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+  }
+  
+  .app img {
+    width: 231px;
+    height: 417px;
+    margin-top: 48px;
+    margin-left: 71px;
+  }
+  
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    width: 342px;
+    height: 100%;
+  }
+  
+  .app h5 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    width: 233px;
+    height: 43px;
+    margin: 0;
+    top: 123.42px;
+    color: white;
+    position: relative;
+  }
+  
+  .mobile input {
+    width: 263px;
+    height: 45px;
+    top: 134px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-indent: 22px;
+    position: relative;
+  }
+  
+  .mobile button {
+    width: 144px;
+    height: 42px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 160px;
+    cursor: pointer;
+  }
+  
+  .mobile p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+    top: 191px;
+    position: relative;
+  }
+  
+  .appLinks {
+    width: 214px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    gap: 8px;
+    position: relative;
+    top: 192px;
+  }
+  
+  .appLinks img {
+    width: 103px;
+    height: 30px;
+    border-radius: 27px;
+    border: 0;
+    position: relative;
+    left: -71px;
+    top: -48px;
+    cursor: pointer;
+  }
+  
+  .appLinks .img img {
+    position: relative;
+    left: -142px;
+  }
+
+  @media (max-width: 480px) {
+    .app {
+      position: relative;
+      top: 120px;
+      left: 0px;
+      border-radius: 16px;
+      width: 440px;
+    }
+  
+    .app img {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      margin: 0;   
+    }
+    .appLinks .img img {
+      left: 0px;}
+  
+    .mobile {
+      position: relative;
+      top: -48px;
+      left: -15px;
+      margin: 0;
+    }
+    .mobile input {
+      width: 210px;
+    }
+}
+@media (max-width: 720px) and (min-width: 480px){
+  .app {
+    position: relative;
+    top: 120px;
+    left: 0px;
+    border-radius: 16px;
+    width: 664px;
+  }
+
+  .app img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0;   
+  }
+  .appLinks .img img {
+    left: 0px;}
+
+  .mobile {
+    position: relative;
+    top: -48px;
+    left: 50px;
+    margin: 0;
+  }
+  .mobile input {
+    width: 210px;
+  }
+}

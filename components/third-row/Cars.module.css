@@ -1,0 +1,219 @@
+.heading {
+    width: 314px;
+    height: 52px;
+    margin: 41px 495px 40px 503px;
+  }
+  
+  .heading h1 {
+    font-family: Poppins;
+    font-size: 34.74px;
+    font-weight: 400;
+    line-height: 52.11px;
+    text-align: center;
+    color: black;
+  }
+  
+  .thirdRow {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .car {
+    width: 838px;
+    height: 290px;
+    left: 64px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #d9d9d9;
+  }
+  
+  .car .img img {
+    width: 360px;
+    height: 290px;
+  }
+  
+  .car h3 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+    color: #1a202c;
+    position: relative;
+    left: 40px;
+  }
+  
+  .car p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: left;
+    color: black;
+    width: 298px;
+    height: 37px;
+    position: relative;
+    left: 42px;
+    top: -25px;
+    opacity: 0.8px;
+  }
+  
+  .car .features {
+    width: 300px;
+    height: 17px;
+    position: relative;
+    left: 41px;
+    top: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .car .feature {
+    width: 66px;
+    height: 17px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+  .car .feature img{
+    width: 12px;
+    height: 15px;  
+  }
+  .car .feature p{
+    font-family: Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 46.5px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  position: relative;
+  left: auto;
+  }
+  
+  .car .price {
+    width: 153px;
+    height: 24px;
+    position: relative;
+    left: 40px;
+    top: 35px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #1a202c;
+  }
+  
+  .car .book button {
+    width: 98px;
+    height: 37px;
+    gap: 8px;
+    border-radius: 4px;
+    position: relative;
+    left: 235px;
+    top: 5px;
+    background-color: #e21e26;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  @media (max-width: 480px) {
+    .heading {
+      position: relative;
+      margin: 0;
+      top: 40px;
+      left: 16px;
+    }
+  
+    .thirdRow {
+      position: relative;
+      top: 100px;
+      left: -45px;
+      height: 555px;
+    }
+  
+    .car{
+      display: flex;
+      flex-direction: column;
+      border-radius: 4px 4px 0px 0px;
+    }
+  
+    .thirdRow .desc {
+      position: relative;
+      top: -16px;
+      left: -37px;
+    }
+  
+    .thirdRow .features {
+      position: relative;
+      top: 0px;
+    }
+  
+    .thirdRow .price {
+      position: relative;
+      top: -5px;
+    }
+  
+    .thirdRow .book button {
+      position: relative;
+      top: 5px;
+      left: 40px;
+      width: 140px;
+    }
+}
+@media (max-width: 720px) and (min-width: 480px){
+  .heading {
+    position: relative;
+    margin: 0;
+    top: 80px;
+    left: 16px;
+  }
+
+  .thirdRow {
+    position: relative;
+    top: 100px;
+    left: -45px;
+    height: 555px;
+  }
+
+  .car{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  .thirdRow .desc {
+    position: relative;
+    top: -16px;
+    left: -37px;
+  }
+
+  .thirdRow .features {
+    position: relative;
+    top: 0px;
+  }
+
+  .thirdRow .price {
+    position: relative;
+    top: -5px;
+  }
+
+  .thirdRow .book button {
+    position: relative;
+    top: 5px;
+    left: 40px;
+    width: 140px;
+  }
+}
